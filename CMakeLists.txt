@@ -7,7 +7,6 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt5  COMPONENTS  Widgets REQUIRED)
 add_executable(${PROJECT_NAME} main.cpp
     Cross.h Cross.cpp
-    ActionWidgetHelper.h
     ActionSlider.cpp ActionSlider.h
     ActionCheckBox.cpp ActionCheckBox.h
 )
