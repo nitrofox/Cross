@@ -9,7 +9,6 @@
 #include <utility>
 #include "ActionCheckBox.h"
 #include "ActionSlider.h"
-#include "ActionWidgetHelper.h"
 int Cross::getSi() const {
   return si;
 }
